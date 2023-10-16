@@ -1,5 +1,5 @@
-import React, { useState, } from 'react';
-import { BrowserRouter, Routes, Route,  useNavigate } from 'react-router-dom';
+import { useState, } from 'react';
+import { BrowserRouter as Routes, Route,  useNavigate } from 'react-router-dom';
 import Home from './Home';
 import SuperheroDetails from './Details';
 import Login from './Login';

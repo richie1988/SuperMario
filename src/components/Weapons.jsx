@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
@@ -23,7 +23,7 @@ function Weapons() {
   return (
     <div>
     <Link to="/games3DS">Go to 3DS Games</Link>
-      <h2>{characterName}'s Weapons</h2>
+      <h2>{characterName} Weapons</h2>
       {weapons.map((weapon, index) => (
         <div key={index}>
           <h3>{weapon.gameName}</h3>
