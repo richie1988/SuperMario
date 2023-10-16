@@ -1,0 +1,28 @@
+/* .App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.superheroes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.superhero-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.superhero-card img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.superhero-details {
+  margin-top: 20px;
+} */
