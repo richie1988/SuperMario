@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
+import Navbar from './Navbar';
+import '../style/details.scss';
 
 const SuperheroDetails = () => {
   const { name } = useParams();
@@ -34,11 +36,15 @@ const SuperheroDetails = () => {
 
   return (
     <div>
+      <Navbar/>
+      <div className='details-container'>
+      <div className='details-card'>
+      <section className='details-btn'>
+      <button onClick={() => navigate(-1)}><i className='fas fa-arrow-left'></i></button>
       <Link to="/weapons">
-        <button>Weapons</button>
+        <button><i className='fas  fa-arrow-circle-right'></i></button>
       </Link>
-      <button onClick={() => navigate(-1)}>Back</button>
-      {/* ... rest of your component ... */}
+      </section>
       <h2>{superhero.name}</h2>
       <img src={superhero.image} alt={superhero.name} />
 
@@ -63,6 +69,8 @@ const SuperheroDetails = () => {
           <strong>Type:</strong> {superhero.type}
         </li>
       </ul>
+      </div>
+    </div>
     </div>
   );
 };

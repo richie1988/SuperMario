@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
 function Games3DS() {
   const [games, setGames] = useState([]);
@@ -20,10 +22,17 @@ function Games3DS() {
   }, [characterName]);
 
   return (
-    <div>
+    <div className='main-games-container'>
+      <Navbar />
+    <div className='games-card-container'>
+      <div className='games-btn'>
+    <Link to="/weapons">
+      <i className='fas fa-arrow-left'></i>
+      </Link>
       <h2>{characterName}&apos, 3DS Games</h2>
+      </div>
       {games.map((game, index) => (
-        <div key={index}>
+        <div key={index} className='games-card'>
           <h3>{game.gameName}</h3>
           {game.games3DS.map((game3DS, game3DSIndex) => (
             <div key={game3DSIndex}>
@@ -34,6 +43,7 @@ function Games3DS() {
         </div>
       ))}
     </div>
+  </div>
   );
 }
 

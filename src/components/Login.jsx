@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import the useNavigate hook
-import '../style/Login.css';
+import '../style/Login.scss';
 
 function Login() {
   const [fullName, setFullName] = useState('');
@@ -29,7 +29,7 @@ function Login() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button type="button" onClick={handleLogin}>
+        <button className='login' type="button" onClick={handleLogin}>
           Login
         </button>
       </div>

@@ -1,0 +1,92 @@
+.App-container {
+  width: 100%;
+  height: auto;
+  align-items: center;
+
+  .main-weapons-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: 5%;
+
+    .weapons-container {
+      width: 300px;
+      height: auto;
+      padding: 5%;
+      border: 2px solid;
+      margin: 20% auto;
+
+      .weapons-btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 22px;
+      }
+    }
+  }
+
+  .main-games-container {
+    width: 100%;
+    height: auto;
+
+    .games-card {
+      width: 100%;
+      height: auto;
+      border: 2px solid black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .games-btn {
+        width: 100%;
+        display: flex;
+        padding-top: 16%;
+        align-items: center;
+        gap: 16px;
+
+        h2 {
+          margin: auto;
+          padding: 20px;
+        }
+
+        a {
+          font-size: 24px;
+          margin-left: 6px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .main-weapons-container {
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+
+    .main-games-container {
+      width: 100%;
+      height: auto;
+
+      .games-card {
+        width: 100%;
+        height: auto;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .games-btn {
+          width: 100%;
+          display: flex;
+          padding-top: 6%;
+          align-items: center;
+          gap: 16px;
+        }
+      }
+    }
+  }
+}
