@@ -47,7 +47,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://richie1988.github.io/SuperMario/)
+- [Live Demo](https://richardsmarioinfo.netlify.app/)
 
 ## 🚀 video presentation <a name="video-presentation"></a>
 
