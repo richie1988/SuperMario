@@ -2,12 +2,11 @@
 
 .card-container {
   height: 160px;
-  padding: 19px;
-  border: 2px solid black;
+  padding: 20px;
+  border: 0.5px solid rgb(243, 41, 135);
   cursor: pointer;
-  margin: 2px;
-  width: 140px;
-  background-color: rgb(236, 76, 138);
+  margin: auto;
+  width: 146px;
 }
 
 .card-container a {
@@ -66,4 +65,24 @@
     float: right;
     font-size: 29px;
   }
+}
+
+.home-login-out {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(236, 15, 100);
+  position: fixed;
+  padding: 12px 0;
+}
+
+.home-login-out h3 {
+  font-size: 24px;
+  margin: auto;
+  text-align: center;
+}
+
+.home-login-out a {
+  font-size: 19px;
+  padding-left: 12px;
 }

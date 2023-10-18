@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchSuperheroByName } from '../redux/reducerSlice';
 import '../style/mario.css';
-import Navbar from './Navbar';
 
 function Home() {
   const dispatch = useDispatch();
@@ -15,7 +14,12 @@ function Home() {
 
   return (
     <div>
-    <Navbar/>
+      <span className='home-login-out'>
+      <Link to="/">
+        <i className='fas fa-arrow-left'></i>
+        </Link>
+        <h3>Super Mario</h3>
+      </span>
     <div className='main-container'>
       {superheroData && superheroData.length > 0 ? (
         superheroData.map((superhero, index) => (

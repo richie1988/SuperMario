@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="../world-data/src/assets/chrome_znzvVSnj6N.png" alt="overview" width="600"  height="auto" />
+  <img src="./Mario-screenshot.png" alt="MarioInfo" width="auto"  height="auto" />
   <br/>
 
   <h3><b>Super Mario</b></h3>
@@ -47,11 +47,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo]()
+- [Live Demo](https://richardsmarioinfo.netlify.app/)
 
 ## 🚀 video presentation <a name="video-presentation"></a>
 
-- [ video presentation ]()
+- [ video presentation ](https://www.loom.com/share/7560711542d5401c8523acdade5bd0b0?sid=99b37e01-0364-4cf0-b0b6-ae6c6d0d2831)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +109,7 @@ Feel free to check the [issues page](https://github.com/richie1988/SuperMario/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please consider subscribing to my GitHub account for updates and more projects
+If you like this project, please consider subscribing to my GitHub account for updates and more projects Thank you looking fiorward for collabaation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
