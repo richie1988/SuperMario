@@ -38,15 +38,24 @@
       margin: 5px;
       cursor: pointer;
     }
-
-    .fa-house {
-      font-size: 40px;
-    }
   }
 
   @media only screen and (min-width: 768px) {
     .text-header {
       font-size: 22px;
+    }
+
+    .fa-house {
+      font-size: 40px;
+    }
+
+    .logout-btn {
+      padding: 12px;
+      font-size: 19px;
+      border-radius: 6px;
+      border: none;
+      margin: 5px;
+      cursor: pointer;
     }
   }
 }

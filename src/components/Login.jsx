@@ -1,16 +1,16 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import the useNavigate hook
+import { useNavigate } from 'react-router-dom';
 import '../style/Login.scss';
 
 function Login() {
   const [fullName, setFullName] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate(); // Use useNavigate to handle navigation
+  const navigate = useNavigate();
 
   const handleLogin = () => {
     // Perform login authentication here
     // For simplicity, let's assume login is successful
-    navigate('/home'); // Navigate to the Home page
+    navigate('/home');
   };
 
   return (
