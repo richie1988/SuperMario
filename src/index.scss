@@ -1,10 +1,12 @@
-/* This is my many index css file */
+/* This is my many index scss file */
+$primary-font: 'Lato', sans-serif;
+
 :root {
-  font-family: 'Lato', sans-serif;
+  font-family: $primary-font;
   line-height: 1.5;
   font-weight: 400;
-  color: rgb(255, 255, 255);
-  background-color: rgb(245, 31, 113);
+  color: #fff;
+  background-color: #f51f71;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -13,7 +15,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: $primary-font;
   width: 100%;
   height: auto;
   margin: 0;
@@ -21,9 +23,9 @@ body {
 }
 
 i {
-  color: rgb(12, 12, 12);
+  color: #0c0c0c;
 }
 
 h2 {
-  color: rgb(24, 128, 224);
+  color: #1880e0;
 }
