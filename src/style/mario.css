@@ -1,0 +1,69 @@
+/* Your mario card styles here */
+
+.card-container {
+  height: 160px;
+  padding: 19px;
+  border: 2px solid black;
+  cursor: pointer;
+  margin: 2px;
+  width: 140px;
+  background-color: rgb(236, 76, 138);
+}
+
+.card-container a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.card-container img {
+  width: 35%;
+  align-items: center;
+  justify-content: center;
+}
+
+.forward-btn {
+  float: right;
+  font-size: 19px;
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 6rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-container {
+    width: 300px;
+    height: auto;
+    padding: 12px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin: 9px;
+  }
+
+  .card-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+  }
+
+  .card-container a {
+    text-decoration: none;
+    font-size: 19px;
+  }
+
+  .forward-btn {
+    float: right;
+    font-size: 29px;
+  }
+}

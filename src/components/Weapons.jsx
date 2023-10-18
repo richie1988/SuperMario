@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
+import '../style/App.scss';
 
 function Weapons() {
   const [weapons, setWeapons] = useState([]);
-  const characterName = "Zelda";
+  const characterName = "Mario";
 
   useEffect(() => {
     const fetchData = async () => {
@@ -22,10 +24,17 @@ function Weapons() {
 
   return (
     <div>
-    <Link to="/games3DS">Go to 3DS Games</Link>
-      <h2>{characterName} Weapons</h2>
+      <Navbar/>
+    <div className='main-weapons-container'>
       {weapons.map((weapon, index) => (
-        <div key={index}>
+    <div key={index} className='weapons-container'>
+    <section className='weapons-btn'>
+    <Link to="/home">
+      <i className='fas fa-arrow-left'></i>
+    </Link>
+    <Link to="/games3DS">Go to 3DS Games</Link>
+    </section>
+    <h2>{characterName} Weapons</h2>
           <h3>{weapon.gameName}</h3>
           {weapon.games3DS.map((game, gameIndex) => (
             <div key={gameIndex}>
@@ -36,6 +45,7 @@ function Weapons() {
           ))}
         </div>
       ))}
+    </div>
     </div>
   );
 }
