@@ -47,7 +47,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://richardmarioinfo.onrender.com/home)
+- [Live Demo](https://richardmarioinfo.onrender.com/)
 
 ## 🚀 video presentation <a name="video-presentation"></a>
 
