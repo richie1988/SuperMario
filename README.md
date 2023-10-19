@@ -3,7 +3,7 @@
   <img src="./Mario-screenshot.png" alt="MarioInfo" width="auto"  height="auto" />
   <br/>
 
-  <h3><b>Super Mario</b></h3>
+  <h3><b>Super Mario info</b></h3>
 
 </div>
 
