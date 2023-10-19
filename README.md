@@ -47,7 +47,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://richardsmarioinfo.netlify.app/)
+- [Live Demo](https://richardmarioinfo.onrender.com/)
 
 ## 🚀 video presentation <a name="video-presentation"></a>
 
